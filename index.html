@@ -1,567 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Christian Rendon — 26-year-old Freelance Web Designer and Digital Creative based in Cagayan de Oro, Philippines. Portfolio featuring modern web design, UI concepts, and creative projects.">
-  <meta name="author" content="Christian Rendon">
-  <meta name="theme-color" content="#0a0b10">
-
-  <!-- Favicon -->
-  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
-
-  <!-- Google Fonts: Plus Jakarta Sans -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
-
-  <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="css/style.css">
-
-  <title>Christian Rendon | Freelance Web Designer &amp; Digital Creative</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Christian Rendon — Personal Autobiography Website for Saint Michael College of Caraga.">
+    <meta name="author" content="Christian Rendon">
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <!-- Google Fonts: Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>My Autobiography | Christian Rendon</title>
 </head>
 <body>
-  <!-- Accessibility Skip Link -->
-  <a href="#main-content" class="skip-link">Skip to main content</a>
-
-  <!-- Header / Navigation Bar -->
-  <header class="header" id="header">
-    <div class="container nav-container">
-      <a href="#hero" class="logo" aria-label="Christian Rendon Home">
-        <span class="logo-badge">CR</span>
-        <span>Christian Rendon</span>
-      </a>
-
-      <!-- Desktop & Mobile Navigation Menu -->
-      <nav aria-label="Primary Navigation">
-        <ul class="nav-menu" id="primary-menu">
-          <li><a href="#hero" class="nav-link active">Home</a></li>
-          <li><a href="#about" class="nav-link">About</a></li>
-          <li><a href="#skills" class="nav-link">Skills &amp; Interests</a></li>
-          <li><a href="#projects" class="nav-link">Projects</a></li>
-          <li><a href="#contact" class="nav-link">Contact</a></li>
-          <li><a href="#contact" class="nav-cta">Let's Talk</a></li>
-        </ul>
-      </nav>
-
-      <!-- Mobile Menu Toggle Button -->
-      <button class="mobile-toggle" aria-expanded="false" aria-controls="primary-menu" aria-label="Toggle navigation menu">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
-      </button>
-    </div>
-  </header>
-
-  <!-- Main Content Landmark -->
-  <main id="main-content">
 
     <!-- ========================================================================
-         HERO SECTION
+         HEADER SECTION: Title & Horizontal Navigation Bar
          ======================================================================== -->
-    <section class="section hero-section" id="hero">
-      <div class="container">
-        <div class="hero-grid">
-          
-          <!-- Hero Text Details -->
-          <div class="hero-content">
-            <div class="hero-greeting-wrapper">
-              <span class="hero-greeting">Hello, I'm</span>
-              <span class="hero-age-pill">26 Years Old</span>
-            </div>
-
-            <h1 class="hero-name">Christian <span>Rendon</span></h1>
-            <p class="hero-role">Freelance Web Designer &amp; Digital Creative</p>
-
-            <p class="hero-bio">
-              A 26-year-old creative professional from Cagayan de Oro who loves crafting clean,
-              engaging websites and exploring modern digital technologies. I focus on merging
-              thoughtful UI aesthetics with functional code to build memorable digital experiences.
-            </p>
-
-            <div class="hero-meta-list">
-              <div class="hero-meta-item">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                </svg>
-                <span><strong>Location:</strong> Cagayan de Oro, Philippines</span>
-              </div>
-              <div class="hero-meta-item">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
-                <span><strong>Focus:</strong> UI Design &amp; Responsive Web</span>
-              </div>
-            </div>
-
-            <div class="hero-actions">
-              <a href="#about" class="btn btn-primary">
-                <span>About Me</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-                </svg>
-              </a>
-              <a href="#projects" class="btn btn-secondary">
-                <span>View Projects</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                </svg>
-              </a>
-            </div>
-          </div>
-
-          <!-- Hero Profile Image Area -->
-          <div class="hero-image-wrapper">
-            <figure class="profile-card">
-              <!-- ================================================================
-                   PROFILE PICTURE INSTRUCTIONS:
-                   To replace with your actual photograph:
-                   1. Add your photo (e.g. "profile.jpg" or "me.png") to the 'images/' folder.
-                   2. Change the src attribute below from 'images/profile-placeholder.svg' to 'images/profile.jpg'.
-                   The CSS uses object-fit: cover to ensure natural proportions and beautiful cropping.
-                   ================================================================ -->
-              <img 
-                src="images/profile-placeholder.svg" 
-                alt="Christian Rendon profile photo placeholder" 
-                class="profile-img"
-                id="profile-picture"
-                width="420"
-                height="420"
-                loading="eager"
-              >
-              
-              <figcaption class="profile-status-badge">
-                <span class="status-dot"></span>
-                <span>Open for freelance &amp; creative projects</span>
-              </figcaption>
-            </figure>
-            <div class="profile-card-backdrop" aria-hidden="true"></div>
-          </div>
-
+    <header class="header">
+        <div class="header-brand">
+            <span class="header-badge">Personal Portfolio</span>
+            <h1>My <span>Autobiography</span></h1>
+            <p class="header-tagline">Christian Rendon &bull; Age 26 &bull; Freelance Web Designer &amp; Digital Creative</p>
         </div>
-      </div>
-    </section>
+
+        <nav class="nav">
+            <a href="#about">About Me</a>
+            <a href="#hobbies">My Hobbies</a>
+            <a href="#favorite">My Favorites</a>
+        </nav>
+    </header>
 
     <!-- ========================================================================
-         ABOUT ME SECTION
+         MAIN CONTENT: Semantic Articles (About Myself, Hobbies, Favorites)
          ======================================================================== -->
-    <section class="section" id="about">
-      <div class="container">
-        <header class="section-header">
-          <span class="section-badge">Biography</span>
-          <h2 class="section-title">Designing Digital Experiences with Purpose</h2>
-          <p class="section-subtitle">A glimpse into my background, creative journey, and personal philosophy.</p>
-        </header>
+    <main>
 
-        <div class="about-grid">
-          <!-- Main Narrative Article -->
-          <article class="about-card about-narrative">
-            <h3>Hello, I'm Christian.</h3>
-            <p>
-              I am a 26-year-old freelance web designer and digital creative living in 
-              Cagayan de Oro, Philippines. My creative path began with a genuine curiosity about how the web connects people, 
-              which quickly grew into a dedicated discipline focused on clean typography, intuitive user interfaces, and structured front-end design.
-            </p>
-            <p>
-              As an approachable and motivated creative, I treat every project as an opportunity to solve problems visually and practically. 
-              I value simplicity over noise, preferring layouts that breathe, communicate with clarity, and provide a comfortable reading experience across all devices.
-            </p>
-            <p>
-              When I'm not designing or refining web projects, you'll find me with a camera experimenting with street and travel photography, 
-              discovering new music, staying curious about emerging technology, and taking on creative experiments that challenge my perspective.
-            </p>
-          </article>
+        <!-- ARTICLE 1: About Myself -->
+        <section>
+            <article class="card" id="about">
+                <h2>About Myself</h2>
 
-          <!-- Sidebar Quick Facts & Interests -->
-          <aside class="about-sidebar">
-            <div class="info-widget">
-              <h4 class="info-widget-title">Quick Information</h4>
-              <ul class="quick-facts-list">
-                <li class="quick-fact-item">
-                  <span class="quick-fact-label">Age</span>
-                  <span class="quick-fact-value">26</span>
-                </li>
-                <li class="quick-fact-item">
-                  <span class="quick-fact-label">Location</span>
-                  <span class="quick-fact-value">Cagayan de Oro, PH</span>
-                </li>
-                <li class="quick-fact-item">
-                  <span class="quick-fact-label">Role</span>
-                  <span class="quick-fact-value">Web Designer &amp; Creative</span>
-                </li>
-                <li class="quick-fact-item">
-                  <span class="quick-fact-label">Personality</span>
-                  <span class="quick-fact-value">Curious, Approachable, Driven</span>
-                </li>
-              </ul>
-            </div>
+                <!-- Profile Picture & Personal Information Two-Column Flex -->
+                <div class="container-profile">
+                    <figure>
+                        <!-- ============================================================
+                             PROFILE PICTURE INSTRUCTION:
+                             To replace with your photo, place your image (e.g. profile.jpg)
+                             inside the 'images/' folder and update the src below:
+                             src="images/profile.jpg"
+                             ============================================================ -->
+                        <img src="images/profile-placeholder.svg" alt="Christian Rendon Photo" class="my-photo">
+                        <figcaption><strong>My Profile Picture</strong></figcaption>
+                    </figure>
 
-            <div class="info-widget">
-              <h4 class="info-widget-title">Interests &amp; Passions</h4>
-              <div class="interests-pill-group">
-                <span class="interest-pill">Web Design</span>
-                <span class="interest-pill">Technology</span>
-                <span class="interest-pill">Photography</span>
-                <span class="interest-pill">Music</span>
-                <span class="interest-pill">Travel</span>
-                <span class="interest-pill">Creative Projects</span>
-              </div>
-            </div>
-          </aside>
-        </div>
-      </div>
-    </section>
-
-    <!-- ========================================================================
-         SKILLS & CAPABILITIES SECTION
-         ======================================================================== -->
-    <section class="section" id="skills">
-      <div class="container">
-        <header class="section-header">
-          <span class="section-badge">Capabilities</span>
-          <h2 class="section-title">Skills &amp; Creative Interests</h2>
-          <p class="section-subtitle">The tools, principles, and disciplines that shape my design and development workflow.</p>
-        </header>
-
-        <div class="skills-grid">
-          <!-- Skill Card 1: UI/UX & Web Design -->
-          <article class="skill-card">
-            <div class="skill-icon-wrapper">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
-              </svg>
-            </div>
-            <h3 class="skill-title">UI &amp; Web Design</h3>
-            <p class="skill-description">
-              Creating clean, user-centered digital layouts with strong typographic hierarchy, balanced contrast, and modern visual aesthetics.
-            </p>
-            <ul class="skill-tags">
-              <li class="skill-tag">Wireframing</li>
-              <li class="skill-tag">Design Systems</li>
-              <li class="skill-tag">Typography</li>
-              <li class="skill-tag">Editorial Layouts</li>
-            </ul>
-          </article>
-
-          <!-- Skill Card 2: Front-End Development -->
-          <article class="skill-card">
-            <div class="skill-icon-wrapper">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-              </svg>
-            </div>
-            <h3 class="skill-title">Responsive Front-End</h3>
-            <p class="skill-description">
-              Structuring accessible, standards-compliant HTML5 and fluid modern CSS (Grid &amp; Flexbox) that look seamless on screens of all sizes.
-            </p>
-            <ul class="skill-tags">
-              <li class="skill-tag">Semantic HTML5</li>
-              <li class="skill-tag">Modern CSS3</li>
-              <li class="skill-tag">Flexbox &amp; Grid</li>
-              <li class="skill-tag">Vanilla JS</li>
-            </ul>
-          </article>
-
-          <!-- Skill Card 3: Creative Problem Solving -->
-          <article class="skill-card">
-            <div class="skill-icon-wrapper">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-              </svg>
-            </div>
-            <h3 class="skill-title">Creative Problem Solving</h3>
-            <p class="skill-description">
-              Approaching technical and visual challenges with curiosity, iterative refinement, and a commitment to intuitive user journeys.
-            </p>
-            <ul class="skill-tags">
-              <li class="skill-tag">UX Strategy</li>
-              <li class="skill-tag">Performance</li>
-              <li class="skill-tag">Accessibility (a11y)</li>
-              <li class="skill-tag">Usability</li>
-            </ul>
-          </article>
-
-          <!-- Skill Card 4: Digital Exploration & Passions -->
-          <article class="skill-card">
-            <div class="skill-icon-wrapper">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" />
-                <path stroke-linecap="round" stroke-linejoin="round" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z" />
-              </svg>
-            </div>
-            <h3 class="skill-title">Creative &amp; Visual Arts</h3>
-            <p class="skill-description">
-              Informed by photography, music production aesthetics, and traveling, bringing organic warmth and visual balance to digital work.
-            </p>
-            <ul class="skill-tags">
-              <li class="skill-tag">Photography</li>
-              <li class="skill-tag">Music &amp; Sound</li>
-              <li class="skill-tag">Travel Studies</li>
-              <li class="skill-tag">Digital Craft</li>
-            </ul>
-          </article>
-        </div>
-
-        <div class="sample-notice-banner">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-          </svg>
-          <span>Note: The skills and capabilities shown above are customizable sample content designed for easy editing as your skillset grows.</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- ========================================================================
-         PROJECTS / CREATIVE WORK SECTION
-         ======================================================================== -->
-    <section class="section" id="projects">
-      <div class="container">
-        <header class="section-header">
-          <span class="section-badge">Selected Work</span>
-          <h2 class="section-title">Projects &amp; Concepts</h2>
-          <p class="section-subtitle">A showcase of design concepts, interface studies, and digital experiments.</p>
-        </header>
-
-        <div class="projects-grid">
-          <!-- Project 1 -->
-          <article class="project-card">
-            <div class="project-thumbnail">
-              <img src="images/project-1.svg" alt="Aura UI Design System Concept preview" width="800" height="500" loading="lazy">
-              <span class="project-pill">Concept Prototype</span>
-            </div>
-            <div class="project-body">
-              <span class="project-category">UI / UX Design</span>
-              <h3 class="project-title">Aura Design System</h3>
-              <p class="project-description">
-                A dark-themed design system and component architecture built for modern SaaS web apps, emphasizing balanced typography, micro-interactions, and accessible contrast.
-              </p>
-              <div class="project-footer">
-                <span class="project-sample-tag">Sample Showcase</span>
-                <a href="#contact" class="project-link">
-                  <span>Inquire Concept</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
-                  </svg>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Project 2 -->
-          <article class="project-card">
-            <div class="project-thumbnail">
-              <img src="images/project-2.svg" alt="Nordic Journal Editorial preview" width="800" height="500" loading="lazy">
-              <span class="project-pill">Editorial Web</span>
-            </div>
-            <div class="project-body">
-              <span class="project-category">Editorial Layout</span>
-              <h3 class="project-title">Nordic Journal</h3>
-              <p class="project-description">
-                A minimalist digital publication platform highlighting long-form essays, photojournalism, and travel stories with responsive typography and distraction-free reading modes.
-              </p>
-              <div class="project-footer">
-                <span class="project-sample-tag">Sample Showcase</span>
-                <a href="#contact" class="project-link">
-                  <span>Inquire Concept</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
-                  </svg>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Project 3 -->
-          <article class="project-card">
-            <div class="project-thumbnail">
-              <img src="images/project-3.svg" alt="Vanguard Studio interactive portfolio preview" width="800" height="500" loading="lazy">
-              <span class="project-pill">Brand Portfolio</span>
-            </div>
-            <div class="project-body">
-              <span class="project-category">Web Experience</span>
-              <h3 class="project-title">Vanguard Studio</h3>
-              <p class="project-description">
-                An immersive studio portfolio design incorporating CSS grid alignments, smooth anchor navigations, and subtle glow effects tailored for creative agencies.
-              </p>
-              <div class="project-footer">
-                <span class="project-sample-tag">Sample Showcase</span>
-                <a href="#contact" class="project-link">
-                  <span>Inquire Concept</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
-                  </svg>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Project 4 -->
-          <article class="project-card">
-            <div class="project-thumbnail">
-              <img src="images/project-4.svg" alt="Pulse Audio motion UI concept preview" width="800" height="500" loading="lazy">
-              <span class="project-pill">Interface Concept</span>
-            </div>
-            <div class="project-body">
-              <span class="project-category">Interaction Design</span>
-              <h3 class="project-title">Pulse Audio UI</h3>
-              <p class="project-description">
-                An experimental audio player interface combining interactive waveform visualizations, customizable playlists, and ambient lighting cues for audiophiles.
-              </p>
-              <div class="project-footer">
-                <span class="project-sample-tag">Sample Showcase</span>
-                <a href="#contact" class="project-link">
-                  <span>Inquire Concept</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
-                  </svg>
-                </a>
-              </div>
-            </div>
-          </article>
-        </div>
-
-        <div class="sample-notice-banner">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-          </svg>
-          <span>These projects are fictional concept placeholders. Replace their images, titles, and descriptions with your actual client and personal projects as needed.</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- ========================================================================
-         CONTACT SECTION
-         ======================================================================== -->
-    <section class="section" id="contact">
-      <div class="container">
-        <header class="section-header">
-          <span class="section-badge">Get In Touch</span>
-          <h2 class="section-title">Let's Connect &amp; Collaborate</h2>
-          <p class="section-subtitle">Have a project in mind, an opportunity to discuss, or just want to say hi? Reach out anytime.</p>
-        </header>
-
-        <div class="contact-grid">
-          <!-- Contact Information Card -->
-          <div class="contact-card">
-            <div>
-              <h3 class="contact-info-title">Let's build something memorable together.</h3>
-              <p class="contact-info-desc">
-                I am currently open to freelance design projects, creative collaborations, 
-                and full-time remote opportunities. Feel free to reach out with any inquiries.
-              </p>
-
-              <div class="contact-methods">
-                <div class="contact-method-item">
-                  <div class="contact-icon" aria-hidden="true">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                    </svg>
-                  </div>
-                  <div>
-                    <div class="contact-method-label">Email (Placeholder)</div>
-                    <div class="contact-method-val">
-                      <a href="mailto:christian.rendon@example.com">christian.rendon@example.com</a>
+                    <div class="info">
+                        <p><strong>Name:</strong> Christian Rendon</p>
+                        <p><strong>Age:</strong> 26</p>
+                        <p><strong>Birthdate:</strong> October 14, 2000</p>
+                        <p><strong>Address:</strong> Cagayan de Oro, Philippines</p>
+                        <p><strong>Job:</strong> Freelance Web Designer and Digital Creative</p>
                     </div>
-                  </div>
                 </div>
 
-                <div class="contact-method-item">
-                  <div class="contact-icon" aria-hidden="true">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                    </svg>
-                  </div>
-                  <div>
-                    <div class="contact-method-label">Location</div>
-                    <div class="contact-method-val">Cagayan de Oro, Philippines</div>
-                  </div>
+                <hr>
+
+                <!-- Life Stages: Childhood, Teenage Life, Adulthood -->
+                <div class="autobio-grid">
+                    <div class="autobio-col">
+                        <h3>My Childhood</h3>
+                        <p>Growing up in a lively community surrounded by nature and coastal scenery, my early childhood was filled with curiosity, active games with friends, and discovering how things work. I always loved sketching ideas, exploring the outdoors, and learning something new every single day.</p>
+                    </div>
+
+                    <div class="autobio-col">
+                        <h3>My Teenage Life</h3>
+                        <p>During my teenage years, I developed an intense fascination with computers, digital design, and programming languages. Alongside sports and community activities, I spent countless hours experimenting with graphic layouts and web design, building a solid foundation for creative digital craft.</p>
+                    </div>
+
+                    <div class="autobio-col">
+                        <h3>My Adult Life</h3>
+                        <p>As an adult at 26, I have embraced a career as a freelance web designer and digital creative in Cagayan de Oro. I enjoy crafting modern, accessible digital experiences, solving visual challenges, and continuously exploring emerging web technologies to create meaningful work.</p>
+                    </div>
                 </div>
-              </div>
-            </div>
+            </article>
+        </section>
 
-            <div class="contact-availability">
-              <span class="status-dot"></span>
-              <span><strong>Status:</strong> Available for new freelance projects</span>
-            </div>
-          </div>
+        <!-- ARTICLE 2: My Hobbies -->
+        <section>
+            <article class="card" id="hobbies">
+                <h2>My Hobbies</h2>
 
-          <!-- Contact Form (Front-End Prototype with Graceful Notice) -->
-          <div class="contact-form-card">
-            <h3 class="contact-form-title">Send a Message</h3>
-            <p class="contact-form-desc">Fill out the form below to initiate a conversation.</p>
+                <div class="hobbies-grid">
+                    <!-- Hobbies Inside Home -->
+                    <div class="hobbies-col">
+                        <h3>Hobbies Inside Our Home</h3>
+                        <ul>
+                            <li>UI/UX Design &amp; Digital Wireframing</li>
+                            <li>Coding &amp; Exploring Modern Web Technologies</li>
+                            <li>Listening to &amp; Curating Ambient Instrumental Music</li>
+                            <li>Reading Design Systems &amp; Tech Articles</li>
+                            <li>Testing Creative Web Layouts &amp; Typography</li>
+                        </ul>
+                    </div>
 
-            <form id="contact-form" class="contact-form" novalidate>
-              <div class="form-group">
-                <label for="contact-name" class="form-label">Your Name</label>
-                <input type="text" id="contact-name" name="name" class="form-input" placeholder="e.g. Jane Doe" required>
-              </div>
+                    <!-- Hobbies Outside Home -->
+                    <div class="hobbies-col">
+                        <h3>Hobbies Outside Our Home</h3>
+                        <ul>
+                            <li>Street &amp; Landscape Photography</li>
+                            <li>Traveling to Scenic Mountain Trails</li>
+                            <li>Playing Basketball &amp; Outdoor Fitness</li>
+                            <li>Exploring Local Cafes &amp; Sketching Ideas</li>
+                            <li>Attending Tech Meetups &amp; Community Events</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </section>
 
-              <div class="form-group">
-                <label for="contact-email" class="form-label">Your Email</label>
-                <input type="email" id="contact-email" name="email" class="form-input" placeholder="e.g. jane@example.com" required>
-              </div>
+        <!-- ARTICLE 3: My Favorites -->
+        <section>
+            <article class="card" id="favorite">
+                <h2>My Favorites</h2>
+                <hr>
 
-              <div class="form-group">
-                <label for="contact-subject" class="form-label">Subject</label>
-                <input type="text" id="contact-subject" name="subject" class="form-input" placeholder="e.g. Website Redesign Project" required>
-              </div>
+                <!-- Favorite 1: Artist -->
+                <div class="favorite-item">
+                    <figure>
+                        <img src="images/favorite-artist.svg" alt="Favorite Artist - Indie & Acoustic Music" class="favorite-photo">
+                        <figcaption><strong>My Favorite Artist &amp; Music</strong></figcaption>
+                    </figure>
 
-              <div class="form-group">
-                <label for="contact-message" class="form-label">Message</label>
-                <textarea id="contact-message" name="message" class="form-textarea" placeholder="Tell me about your project, timeline, or idea..." required></textarea>
-              </div>
+                    <div class="info">
+                        <p>Music is an essential companion in my creative workflow as a designer. I deeply enjoy listening to indie, acoustic, and ambient music artists whose soulful vocals, mellow melodies, and expressive arrangements spark imagination. Listening to calming acoustic tracks keeps me motivated during long design sessions and helps me unwind after a productive day of work.</p>
+                    </div>
+                </div>
 
-              <button type="submit" class="btn btn-primary" style="width: 100%;">
-                <span>Send Message</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
-                </svg>
-              </button>
+                <hr>
 
-              <div id="form-feedback" class="form-feedback" role="alert" aria-live="polite"></div>
-            </form>
-          </div>
+                <!-- Favorite 2: Food -->
+                <div class="favorite-item">
+                    <figure>
+                        <img src="images/favorite-food.svg" alt="Favorite Food - Gourmet Comfort Cuisine" class="favorite-photo">
+                        <figcaption><strong>My Favorite Food</strong></figcaption>
+                    </figure>
+
+                    <div class="info">
+                        <p>One of my favorite foods is freshly prepared artisanal burgers and stone-baked pizza. I appreciate meals crafted with fresh ingredients, balanced seasonings, and satisfying flavors that make every bite enjoyable. It is the ultimate comfort meal that I always look forward to enjoying with family and friends after completing an exciting creative milestone.</p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <!-- Favorite 3: Place -->
+                <div class="favorite-item">
+                    <figure>
+                        <img src="images/favorite-place.svg" alt="Favorite Place - Mountains & Nature" class="favorite-photo">
+                        <figcaption><strong>My Favorite Place</strong></figcaption>
+                    </figure>
+
+                    <div class="info">
+                        <p>The cool highland mountains of Dahilayan and Bukidnon, located just a short ride from Cagayan de Oro, are among my absolute favorite places. The panoramic mountain views, pine trees, and fresh mountain air provide a peaceful retreat away from urban noise. Visiting scenic nature spots recharges my creative energy and inspires organic harmony in my digital designs.</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+    </main>
+
+    <!-- ========================================================================
+         FOOTER SECTION: Copyright & Saint Michael College of Caraga
+         ======================================================================== -->
+    <footer class="footer">
+        <p class="footer-copyright">&copy; 2026 My Autobiography &bull; All rights reserved &bull; Christian Rendon</p>
+        <div class="school-info">
+            <p class="school-name">Saint Michael College of Caraga</p>
+            <p>Brgy. 4, Nasipit, Agusan del Norte, Philippines &bull; www.smccnasipit.edu.ph</p>
+            <p>Tel. Nos. +63 085 343-3251 / +63 085 283-3113 &bull; Fax No. +63 085 808-0892</p>
         </div>
-      </div>
-    </section>
+    </footer>
 
-  </main>
-
-  <!-- ========================================================================
-       FOOTER
-       ======================================================================== -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-top">
-        <div class="footer-brand">
-          <span class="footer-logo">Christian Rendon</span>
-          <span class="footer-tagline">Freelance Web Designer &amp; Digital Creative • Cagayan de Oro, Philippines</span>
-        </div>
-
-        <ul class="footer-nav">
-          <li><a href="#hero">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-bottom">
-        <p>&copy; 2026 Christian Rendon. All rights reserved.</p>
-        <a href="#hero" class="back-to-top" aria-label="Back to top of page">
-          <span>Back to Top</span>
-          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M5 10l7-7m0 0l7 7m-7-7v18" />
-          </svg>
-        </a>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Main JavaScript File -->
-  <script src="js/main.js"></script>
 </body>
 </html>

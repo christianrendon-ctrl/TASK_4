@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="artGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1338" />
+      <stop offset="50%" stop-color="#110d24" />
+      <stop offset="100%" stop-color="#0a0817" />
+    </linearGradient>
+    <linearGradient id="glowPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+    <radialGradient id="musicAura" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#artGrad)" rx="16"/>
+  <circle cx="300" cy="210" r="180" fill="url(#musicAura)" />
+  
+  <!-- Headphones and Soundwave Graphic -->
+  <g fill="none" stroke="url(#glowPurple)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Headphone Arc -->
+    <path d="M 200 220 A 100 100 0 0 1 400 220" stroke-width="8"/>
+    <!-- Left Ear Cup -->
+    <rect x="180" y="200" width="36" height="65" rx="14" fill="#1e183b" stroke="url(#glowPurple)" stroke-width="4"/>
+    <!-- Right Ear Cup -->
+    <rect x="384" y="200" width="36" height="65" rx="14" fill="#1e183b" stroke="url(#glowPurple)" stroke-width="4"/>
+    
+    <!-- Sound Waves -->
+    <line x1="250" y1="210" x2="250" y2="250" stroke-width="4" stroke="#a855f7"/>
+    <line x1="270" y1="190" x2="270" y2="270" stroke-width="4" stroke="#c084fc"/>
+    <line x1="290" y1="170" x2="290" y2="290" stroke-width="5" stroke="#38bdf8"/>
+    <line x1="310" y1="170" x2="310" y2="290" stroke-width="5" stroke="#38bdf8"/>
+    <line x1="330" y1="190" x2="330" y2="270" stroke-width="4" stroke="#c084fc"/>
+    <line x1="350" y1="210" x2="350" y2="250" stroke-width="4" stroke="#a855f7"/>
+  </g>
+
+  <!-- Title Pill -->
+  <g transform="translate(300, 380)">
+    <rect x="-140" y="-18" width="280" height="36" rx="18" fill="#130f26" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+    <text x="0" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#e2e8f0" text-anchor="middle">Favorite Artist / Acoustic &amp; Indie</text>
+  </g>
+</svg>
