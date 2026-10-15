@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p1Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181c2f" />
+      <stop offset="100%" stop-color="#0e111c" />
+    </linearGradient>
+    <linearGradient id="accent1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#p1Grad)"/>
+  <!-- UI Window Mockup -->
+  <rect x="80" y="60" width="640" height="380" rx="12" fill="#141724" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+  <!-- Window Header -->
+  <rect x="80" y="60" width="640" height="40" rx="12" fill="#1b1f32"/>
+  <circle cx="110" cy="80" r="5" fill="#f87171"/>
+  <circle cx="126" cy="80" r="5" fill="#fbbf24"/>
+  <circle cx="142" cy="80" r="5" fill="#34d399"/>
+  <rect x="220" y="70" width="360" height="20" rx="6" fill="#0f111a"/>
+  <!-- Content Mockup -->
+  <rect x="120" y="130" width="220" height="18" rx="4" fill="url(#accent1)"/>
+  <rect x="120" y="160" width="340" height="10" rx="3" fill="#334155"/>
+  <rect x="120" y="180" width="280" height="10" rx="3" fill="#334155"/>
+  <rect x="120" y="210" width="110" height="32" rx="6" fill="#6366f1"/>
+  <!-- Cards Mockup -->
+  <rect x="120" y="270" width="170" height="130" rx="8" fill="#1e2337" stroke="rgba(255,255,255,0.05)"/>
+  <rect x="310" y="270" width="170" height="130" rx="8" fill="#1e2337" stroke="rgba(255,255,255,0.05)"/>
+  <rect x="500" y="270" width="170" height="130" rx="8" fill="#1e2337" stroke="rgba(255,255,255,0.05)"/>
+  <circle cx="570" cy="180" r="45" fill="none" stroke="url(#accent1)" stroke-width="6"/>
+</svg>
