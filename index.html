@@ -3,182 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Christian Rendon — Personal Autobiography Website for Saint Michael College of Caraga.">
-    <meta name="author" content="Christian Rendon">
-    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
-    <!-- Google Fonts: Plus Jakarta Sans -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/me.png" type="image/png">
     <link rel="stylesheet" href="css/style.css">
-    <title>My Autobiography | Christian Rendon</title>
+    <title>My Autobiography</title>
 </head>
 <body>
 
-    <!-- ========================================================================
-         HEADER SECTION: Title & Horizontal Navigation Bar
-         ======================================================================== -->
+    <!-- Header -->
     <header class="header">
-        <div class="header-brand">
-            <span class="header-badge">Personal Portfolio</span>
-            <h1>My <span>Autobiography</span></h1>
-            <p class="header-tagline">Christian Rendon &bull; Age 26 &bull; Freelance Web Designer &amp; Digital Creative</p>
-        </div>
-
-        <nav class="nav">
-            <a href="#about">About Me</a>
-            <a href="#hobbies">My Hobbies</a>
-            <a href="#favorite">My Favorites</a>
-        </nav>
+        <h1>MY AUTOBIOGRAPHY</h1>
     </header>
 
-    <!-- ========================================================================
-         MAIN CONTENT: Semantic Articles (About Myself, Hobbies, Favorites)
-         ======================================================================== -->
+    <!-- Navigation -->
+    <nav class="nav">
+        <a href="#about">About Me</a>
+        <a href="#hobbies">My Hobbies</a>
+        <a href="#favorite">My Favorites</a>
+    </nav>
+
+    <!-- Main Content -->
     <main>
 
-        <!-- ARTICLE 1: About Myself -->
-        <section>
-            <article class="card" id="about">
+        <!-- About Myself Section -->
+        <section id="about">
+            <article>
                 <h2>About Myself</h2>
 
-                <!-- Profile Picture & Personal Information Two-Column Flex -->
-                <div class="container-profile">
-                    <figure>
-                        <!-- ============================================================
-                             PROFILE PICTURE INSTRUCTION:
-                             To replace with your photo, place your image (e.g. profile.jpg)
-                             inside the 'images/' folder and update the src below:
-                             src="images/profile.jpg"
-                             ============================================================ -->
-                        <img src="images/profile-placeholder.svg" alt="Christian Rendon Photo" class="my-photo">
-                        <figcaption><strong>My Profile Picture</strong></figcaption>
-                    </figure>
-
-                    <div class="info">
-                        <p><strong>Name:</strong> Christian Rendon</p>
-                        <p><strong>Age:</strong> 26</p>
-                        <p><strong>Birthdate:</strong> October 14, 2000</p>
-                        <p><strong>Address:</strong> Cagayan de Oro, Philippines</p>
-                        <p><strong>Job:</strong> Freelance Web Designer and Digital Creative</p>
+                <!-- Profile Photo and Personal Details -->
+                <div class="profile-container">
+                    <div class="profile-image">
+                        <img src="images/me.png" alt="Profile Photo">
+                    </div>
+                    <div class="profile-info">
+                        <p><strong>Name:</strong>CHRISTIAN RENDON</p>
+                        <p><strong>Birthdate:</strong>October 14, 2000</p>
+                        <p><strong>Address:</strong>Cagayan de Oro, Philippines</p>
+                        <p><strong>Job:</strong>Freelance Web Designer and Digital Creative</p>
                     </div>
                 </div>
 
-                <hr>
-
-                <!-- Life Stages: Childhood, Teenage Life, Adulthood -->
-                <div class="autobio-grid">
-                    <div class="autobio-col">
+                <!-- Two Column Childhood, Teenage Life, and Adulthood -->
+                <div class="two-column-grid">
+                    <div class="column">
                         <h3>My Childhood</h3>
                         <p>Growing up in a lively community surrounded by nature and coastal scenery, my early childhood was filled with curiosity, active games with friends, and discovering how things work. I always loved sketching ideas, exploring the outdoors, and learning something new every single day.</p>
-                    </div>
 
-                    <div class="autobio-col">
                         <h3>My Teenage Life</h3>
                         <p>During my teenage years, I developed an intense fascination with computers, digital design, and programming languages. Alongside sports and community activities, I spent countless hours experimenting with graphic layouts and web design, building a solid foundation for creative digital craft.</p>
                     </div>
 
-                    <div class="autobio-col">
-                        <h3>My Adult Life</h3>
+                    <div class="column">
+                        <h3>My Adulthood</h3>
                         <p>As an adult at 26, I have embraced a career as a freelance web designer and digital creative in Cagayan de Oro. I enjoy crafting modern, accessible digital experiences, solving visual challenges, and continuously exploring emerging web technologies to create meaningful work.</p>
                     </div>
                 </div>
             </article>
         </section>
 
-        <!-- ARTICLE 2: My Hobbies -->
-        <section>
-            <article class="card" id="hobbies">
+        <hr>
+
+        <!-- My Hobbies Section -->
+        <section id="hobbies">
+            <article>
                 <h2>My Hobbies</h2>
 
                 <div class="hobbies-grid">
-                    <!-- Hobbies Inside Home -->
-                    <div class="hobbies-col">
-                        <h3>Hobbies Inside Our Home</h3>
+                    <div class="column">
+                        <h3>My Hobbies Inside our Home</h3>
                         <ul>
-                            <li>UI/UX Design &amp; Digital Wireframing</li>
-                            <li>Coding &amp; Exploring Modern Web Technologies</li>
-                            <li>Listening to &amp; Curating Ambient Instrumental Music</li>
-                            <li>Reading Design Systems &amp; Tech Articles</li>
-                            <li>Testing Creative Web Layouts &amp; Typography</li>
+                            <li>Playing Piano</li>
+                            <li>Surfing the Internet</li>
+                            <li>Reading Books</li>
                         </ul>
                     </div>
 
-                    <!-- Hobbies Outside Home -->
-                    <div class="hobbies-col">
-                        <h3>Hobbies Outside Our Home</h3>
+                    <div class="column">
+                        <h3>My Hobbies Outside our Home</h3>
                         <ul>
-                            <li>Street &amp; Landscape Photography</li>
-                            <li>Traveling to Scenic Mountain Trails</li>
-                            <li>Playing Basketball &amp; Outdoor Fitness</li>
-                            <li>Exploring Local Cafes &amp; Sketching Ideas</li>
-                            <li>Attending Tech Meetups &amp; Community Events</li>
+                            <li>Biking</li>
+                            <li>Playing Baseball</li>
+                            <li>Hanging-out with Friends</li>
+                            <li>Eating in the Park</li>
                         </ul>
                     </div>
                 </div>
             </article>
         </section>
 
-        <!-- ARTICLE 3: My Favorites -->
-        <section>
-            <article class="card" id="favorite">
+        <hr>
+
+        <!-- My Favorites Section -->
+        <section id="favorite">
+            <article>
                 <h2>My Favorites</h2>
-                <hr>
 
-                <!-- Favorite 1: Artist -->
-                <div class="favorite-item">
-                    <figure>
-                        <img src="images/favorite-artist.svg" alt="Favorite Artist - Indie & Acoustic Music" class="favorite-photo">
-                        <figcaption><strong>My Favorite Artist &amp; Music</strong></figcaption>
-                    </figure>
-
-                    <div class="info">
-                        <p>Music is an essential companion in my creative workflow as a designer. I deeply enjoy listening to indie, acoustic, and ambient music artists whose soulful vocals, mellow melodies, and expressive arrangements spark imagination. Listening to calming acoustic tracks keeps me motivated during long design sessions and helps me unwind after a productive day of work.</p>
+                <!-- Favorite Artist -->
+                <div class="favorite-section-item">
+                    <h3>My Favorite Artist</h3>
+                    <div class="favorite-content">
+                        <img src="images/images.jpg" alt="Justin Bieber" class="img-artist">
+                        <p>This is Justin Bieber, My Favorite Artist. Music plays an essential role in my creative workflow as a designer. I deeply enjoy listening to indie, acoustic, and pop music whose expressive arrangements spark imagination. Listening to calming acoustic tracks keeps me motivated during long design sessions and helps me unwind after a productive day of work.</p>
                     </div>
                 </div>
 
-                <hr>
-
-                <!-- Favorite 2: Food -->
-                <div class="favorite-item">
-                    <figure>
-                        <img src="images/favorite-food.svg" alt="Favorite Food - Gourmet Comfort Cuisine" class="favorite-photo">
-                        <figcaption><strong>My Favorite Food</strong></figcaption>
-                    </figure>
-
-                    <div class="info">
-                        <p>One of my favorite foods is freshly prepared artisanal burgers and stone-baked pizza. I appreciate meals crafted with fresh ingredients, balanced seasonings, and satisfying flavors that make every bite enjoyable. It is the ultimate comfort meal that I always look forward to enjoying with family and friends after completing an exciting creative milestone.</p>
+                <!-- Favorite Food -->
+                <div class="favorite-section-item">
+                    <h3>My Favorite Food</h3>
+                    <div class="favorite-content">
+                        <img src="images/food.jpg" alt="Siomai" class="img-food">
+                        <p>This is a siomai, My Favorite Food. One of my favorite comfort foods is freshly prepared dumplings and siomai with chili garlic oil. I appreciate meals crafted with rich seasonings and satisfying flavors that make every bite enjoyable. It is the ultimate comfort meal that I always look forward to enjoying with family and friends after completing an exciting creative milestone.</p>
                     </div>
                 </div>
 
-                <hr>
-
-                <!-- Favorite 3: Place -->
-                <div class="favorite-item">
-                    <figure>
-                        <img src="images/favorite-place.svg" alt="Favorite Place - Mountains & Nature" class="favorite-photo">
-                        <figcaption><strong>My Favorite Place</strong></figcaption>
-                    </figure>
-
-                    <div class="info">
-                        <p>The cool highland mountains of Dahilayan and Bukidnon, located just a short ride from Cagayan de Oro, are among my absolute favorite places. The panoramic mountain views, pine trees, and fresh mountain air provide a peaceful retreat away from urban noise. Visiting scenic nature spots recharges my creative energy and inspires organic harmony in my digital designs.</p>
+                <!-- Favorite Place -->
+                <div class="favorite-section-item">
+                    <h3>My Favorite Place</h3>
+                    <div class="favorite-content">
+                        <img src="images/place.jpg" alt="Palawan" class="img-place">
+                        <p>This palawan, My Favorite Place. The breathtaking island of Palawan, with its crystalline lagoons, limestone cliffs, and tranquil turquoise waters, is one of my absolute dream destinations. The pristine natural scenery and peaceful atmosphere provide a sanctuary away from urban noise. Experiencing scenic nature spots recharges my creative energy and inspires organic harmony in my digital designs.</p>
                     </div>
                 </div>
             </article>
         </section>
+
+        <hr>
 
     </main>
 
-    <!-- ========================================================================
-         FOOTER SECTION: Copyright & Saint Michael College of Caraga
-         ======================================================================== -->
-    <footer class="footer">
-        <p class="footer-copyright">&copy; 2026 My Autobiography &bull; All rights reserved &bull; Christian Rendon</p>
-        <div class="school-info">
-            <p class="school-name">Saint Michael College of Caraga</p>
-            <p>Brgy. 4, Nasipit, Agusan del Norte, Philippines &bull; www.smccnasipit.edu.ph</p>
-            <p>Tel. Nos. +63 085 343-3251 / +63 085 283-3113 &bull; Fax No. +63 085 808-0892</p>
-        </div>
+    <!-- Footer -->
+    <footer>
+        <p>All Rights Reserved &copy; Christian Rendon 2026</p>
     </footer>
 
 </body>
