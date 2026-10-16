@@ -111,10 +111,11 @@ hr {
 }
 
 .profile-image img {
-    width: 92px;
-    height: 100px;
+    width: 95px;
+    height: 105px;
     border: 1px solid #000000;
     object-fit: cover;
+    object-position: top center;
     display: block;
 }
 
