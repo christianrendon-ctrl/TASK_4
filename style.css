@@ -1,0 +1,249 @@
+/* ==========================================================================
+   MY AUTOBIOGRAPHY — CHRISTIAN RENDON
+   Saint Michael College of Caraga Web Activity
+   Exact Teacher Reference Design (Pure HTML/CSS — No JS)
+   ========================================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: #ffffff;
+}
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+    line-height: 1.5;
+}
+
+/* --------------------------------------------------------------------------
+   Header & Navigation
+   -------------------------------------------------------------------------- */
+header {
+    background-color: #070295;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+nav {
+    background-color: #faebd7;
+    text-align: center;
+    padding: 8px 0;
+    width: 100%;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 12.5px;
+    margin: 0 25px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #070295;
+}
+
+/* --------------------------------------------------------------------------
+   Main Container
+   -------------------------------------------------------------------------- */
+main {
+    width: 90%;
+    max-width: 920px;
+    margin: 20px auto 40px auto;
+}
+
+/* Headings */
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 14px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+h3 {
+    font-size: 12.5px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+p {
+    font-size: 11.5px;
+    text-align: justify;
+    line-height: 1.5;
+    color: #000000;
+}
+
+/* Horizontal Rule Divider */
+hr {
+    border: 0;
+    border-top: 1px solid #000000;
+    margin: 16px 0;
+}
+
+/* --------------------------------------------------------------------------
+   Profile Section (About Myself)
+   -------------------------------------------------------------------------- */
+.profile-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 14px;
+}
+
+.profile-image img {
+    width: 95px;
+    height: 105px;
+    border: 1px solid #000000;
+    object-fit: cover;
+    object-position: top center;
+    display: block;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.profile-info p {
+    font-size: 11.5px;
+    line-height: 1.35;
+    text-align: left;
+}
+
+.profile-info strong {
+    font-weight: bold;
+    display: block;
+}
+
+/* Two Column Layout for Life Stages */
+.two-column-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 32px;
+    row-gap: 12px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+/* --------------------------------------------------------------------------
+   Hobbies Section
+   -------------------------------------------------------------------------- */
+.hobbies-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 32px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 18px;
+    margin-top: 4px;
+}
+
+li {
+    font-size: 11.5px;
+    line-height: 1.55;
+}
+
+/* --------------------------------------------------------------------------
+   Favorites Section
+   -------------------------------------------------------------------------- */
+.favorite-section-item {
+    margin-bottom: 14px;
+}
+
+.favorite-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-top: 6px;
+}
+
+.favorite-content img {
+    object-fit: cover;
+    display: block;
+    flex-shrink: 0;
+}
+
+.img-artist {
+    width: 124px;
+    height: 130px;
+}
+
+.img-food {
+    width: 124px;
+    height: 130px;
+}
+
+.img-place {
+    width: 298px;
+    height: 160px;
+}
+
+.favorite-content p {
+    flex: 1;
+    font-size: 11.5px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+/* --------------------------------------------------------------------------
+   Footer
+   -------------------------------------------------------------------------- */
+footer {
+    text-align: center;
+    padding: 12px 0 25px 0;
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+    font-size: 11.5px;
+    font-weight: bold;
+    color: #000000;
+}
+
+/* --------------------------------------------------------------------------
+   Responsive adjustments for small screens
+   -------------------------------------------------------------------------- */
+@media (max-width: 650px) {
+    .two-column-grid,
+    .hobbies-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .favorite-content {
+        flex-direction: column;
+    }
+
+    .img-place {
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+    }
+}
